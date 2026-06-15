@@ -1,0 +1,13 @@
+Usuários  (CSV)
+        ↓
+Ingestão Python
+        ↓
+Data Lake (Pastas)
+        ↓
+Transformação Pandas
+        ↓
+PostgreSQL (Docker)
+        ↓
+Dashboard Streamlit
+        ↓
+Métricas e Recomendações
