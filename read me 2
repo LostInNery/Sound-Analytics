@@ -1,0 +1,31 @@
+sound-analytics/
+
+├── README.md
+├── requirements.txt
+├── docker-compose.yml
+│
+├── data
+│   ├── raw
+│   ├── processed
+│   └── curated
+│
+├── ingestion
+│   └── ingestao.py
+│
+├── transformation
+│   └── transformacao.py
+│
+├── storage
+│   └── carga_postgres.py
+│
+├── orchestration
+│   └── pipeline.py
+│
+├── serving
+│   └── dashboard.py
+│
+├── monitoring
+│   └── logger.py
+│
+└── docs
+    └── arquitetura.md
